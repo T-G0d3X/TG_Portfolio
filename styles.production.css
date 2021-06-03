@@ -438,6 +438,11 @@ button[type='submit'] {
   .content_home {
     height: 150px;
   }
+
+  p.about_p {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
 }
 
 @-webkit-keyframes status {
