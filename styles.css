@@ -337,11 +337,14 @@ button[type='submit'] {
   }
   .nav-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    font-size: 13px;
+    margin-top: 20px;
   }
 
   .nav-list a {
-    padding-left: 0;
+    padding: 0;
+    margin: 3px;
   }
 
   .home {
@@ -363,16 +366,8 @@ button[type='submit'] {
     font-size: 20px;
   }
 
-  .custom-shape-divider-top-1622547291 .shape-fill {
-    fill: #2a5af2;
-  }
-
   .content_home {
     height: 150px;
-  }
-
-  svg {
-    display: none;
   }
 }
 
