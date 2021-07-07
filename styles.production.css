@@ -393,6 +393,10 @@ button[type='submit'] {
   font-size: 40px;
 }
 
+.skillset_icons {
+  margin-top: 20px;
+}
+
 /* 🟣 */
 
 @media only screen and (max-width: 570px) {
