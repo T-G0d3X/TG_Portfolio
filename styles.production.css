@@ -154,11 +154,17 @@ a:hover {
 
 .content_home {
   height: 250px;
+  margin-top: 100px;
+  margin-bottom: 150px;
 }
 
 /* 🔶🔶 // HOME SECTION  🔶🔶 // */
 
 /* 🔶🔶🔶 // MY STORY SECTION  🔶🔶🔶 // */
+.about_img {
+  width: 60%;
+}
+
 .mystory {
   padding-top: 100px;
   display: -webkit-box;
@@ -397,6 +403,15 @@ button[type='submit'] {
   margin-top: 20px;
 }
 
+.vl {
+  border-left: 3px solid white;
+  height: 195px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 680px;
+}
+
 /* 🟣 */
 
 @media only screen and (max-width: 570px) {
@@ -448,8 +463,38 @@ button[type='submit'] {
   }
 
   p.about_p {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    margin-top: 10px;
+  }
+
+  .vl {
+    border-left: 3px solid white;
+    height: 220px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 500px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  p.about_p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .footer_icon {
+    width: 30px;
   }
 }
 
