@@ -140,6 +140,7 @@ a:hover {
 
 .link_home {
   font-size: 1.35em;
+  font-weight: 300;
 }
 
 .home_heading {
@@ -161,9 +162,12 @@ a:hover {
 /* 🔶🔶 // HOME SECTION  🔶🔶 // */
 
 /* 🔶🔶🔶 // MY STORY SECTION  🔶🔶🔶 // */
+
 .about_img {
-  margin-top: 10px;
-  width: 60%;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  width: 400px;
 }
 
 .mystory {
@@ -173,10 +177,16 @@ a:hover {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+  flex-direction: column;
   justify-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
   text-align: center;
+}
+
+.mystory_p {
+  display: flex;
+  justify-content: center;
 }
 
 .mystory p {
@@ -469,8 +479,8 @@ button[type='submit'] {
     text-align: left;
   }
 
-  img {
-    width: 100%;
+  .about_img {
+    width: 90%;
     object-fit: cover;
     object-position: bottom;
     margin-top: 10px;
