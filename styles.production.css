@@ -15,7 +15,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 100%;
 }
 
@@ -48,7 +48,7 @@ body {
   display: block;
   width: calc(127% + 1.3px);
   height: 165px;
-  background-color: #2a5af2;
+  background-color: black;
 }
 
 .custom-shape-divider-top-1622547291 .shape-fill {
@@ -132,7 +132,7 @@ a:hover {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #2a5af2;
+  background-color: black;
   color: white;
   padding-top: 250px;
   font-size: 1.2em;
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .home_heading {
-  font-size: 3em;
+  font-size: 4em;
   -webkit-animation: 2s text-slide alternate linear;
   animation: 2s text-slide alternate linear;
 }
@@ -248,8 +248,9 @@ a:hover {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #102c81;
+  background-color: black;
   color: white;
+  border: 0.5px solid white;
 }
 
 /* Style the back side */
@@ -336,7 +337,7 @@ a:hover {
   border: 1px solid black;
 }
 
-button[type='submit'] {
+/* button[type="submit"] {
   width: 100%;
   border: none;
   outline: none;
@@ -367,7 +368,7 @@ button[type='submit'] {
   background-color: rgb(235, 137, 25);
   -webkit-animation: status 3s ease forwards;
   animation: status 3s ease forwards;
-}
+} */
 
 /* 🟣🟣🟣 */
 
@@ -425,7 +426,7 @@ button[type='submit'] {
 
 /* 🟣 */
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 590px) {
   .nav-top {
     text-align: center;
     -webkit-box-pack: center;
@@ -494,6 +495,10 @@ button[type='submit'] {
     margin-left: -3px;
     top: 500px;
   }
+}
+
+.footer_icon {
+  width: 30px;
 }
 
 @media only screen and (max-width: 800px) {
