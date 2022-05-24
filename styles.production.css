@@ -457,12 +457,16 @@ h2.home_heading {
 }
 
 @media only screen and (max-width: 575px) {
+  h2.home_heading {
+    font-size: 60px;
+  }
+
   .footer_icon {
     width: 30px;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 570px) {
   h2.home_heading {
     font-size: 80px;
   }
